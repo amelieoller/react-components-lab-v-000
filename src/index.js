@@ -44,6 +44,7 @@ export class ButcherShop extends React.Component {
 ReactDOM.render(
   React.createElement('div', {}, [
     React.createElement(OlderCoaster),
+    // Comment out these two at beginning of lesson to not run into TypeError: instance.render is not a function
     React.createElement(InFrontOfYou),
     React.createElement(ButcherShop)
   ]),
